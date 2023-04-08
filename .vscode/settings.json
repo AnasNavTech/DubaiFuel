@@ -1,0 +1,5 @@
+{
+    "alCodeActions.extractToLabelCreatesComment": false,
+    "alCodeActions.publisherHasVarParametersOnly": false,
+    "alCodeActions.initializeIsHandledVariableWhenCreatingOnBeforePublisher": false
+}

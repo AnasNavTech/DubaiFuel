@@ -1,0 +1,32 @@
+{
+  "id": "a801ff72-c728-4f24-9d7c-96a795b1f7bc",
+  "name": "DubaiFuel",
+  "publisher": "GTFS",
+  "version": "1.0.0.2",
+  "brief": "",
+  "description": "Upgrade Dubai Fuel",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "22.0.0.0",
+  "application": "22.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "11.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}

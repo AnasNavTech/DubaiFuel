@@ -3,11 +3,7 @@ TableExtension 50023 TabExtItemLederEntry extends "Item Ledger Entry"
     fields
     {
 
-        field(60000; "Order No.1"; Code[20])
 
-        {
-            Description = 'GTFS-09.05.2011- To get the balace qty for PO/SO';
-        }
         field(60001; "Order Quantity"; Decimal)
         {
             Description = 'GTFS-09.05.2011- To get the balace qty for PO/SO';
@@ -17,11 +13,7 @@ TableExtension 50023 TabExtItemLederEntry extends "Item Ledger Entry"
             Description = 'GTFS-09.05.2011- To get the balace qty for PO/SO';
         }
 
-        field(60003; "Order Line No.1"; Integer)
 
-        {
-            Description = 'GTFS-09.05.2011- To get the balace qty for PO/SO';
-        }
     }
     keys
     {

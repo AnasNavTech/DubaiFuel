@@ -54,13 +54,13 @@ codeunit 50001 EventSubscription
         ILEQty: Decimal;
     begin
 
-        NewItemLedgEntry."Order No.1" := ItemJournalLine."Order No.1";
-        NewItemLedgEntry."Order Line No.1" := ItemJournalLine."Order Line No.1";
+        NewItemLedgEntry."Order No." := ItemJournalLine."Order No.";
+        NewItemLedgEntry."Order Line No." := ItemJournalLine."Order Line No.";
         NewItemLedgEntry."Order Quantity" := ItemJournalLine."Order Quantity";
         RecILE.RESET;
-        RecILE.SETCURRENTKEY("Order No.1", "Item No.");
-        RecILE.SETRANGE("Order No.1", ItemJournalLine."Order No.");
-        RecILE.SETRANGE(RecILE."Order Line No.1", ItemJournalLine."Order Line No.");
+        RecILE.SETCURRENTKEY("Order No.", "Item No.");
+        RecILE.SETRANGE("Order No.", ItemJournalLine."Order No.");
+        RecILE.SETRANGE(RecILE."Order Line No.", ItemJournalLine."Order Line No.");
         RecILE.SETRANGE("Item No.", ItemJournalLine."Item No.");
         IF RecILE.FINDFIRST THEN BEGIN
             RecILE.CALCSUMS(Quantity);
@@ -70,9 +70,4 @@ codeunit 50001 EventSubscription
 
 
     end;
-
-
-
-
-
 }

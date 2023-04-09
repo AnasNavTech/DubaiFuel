@@ -52,13 +52,7 @@ TableExtension 50026 tabExtItemJournalLine extends "Item Journal Line"
         field(60001; "Order Quantity"; Decimal)
         {
         }
-        field(60000; "Order No.1"; Code[20])
 
-        {
-        }
-        field(60002; "Order Line No.1"; Integer)
-        {
-        }
 
     }
     keys
